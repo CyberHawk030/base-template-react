@@ -1,11 +1,5 @@
 import React from "react";
 import RouteCondition from "./helpers/routeCondition";
-// import Signin from '../views/Signin'
-// import Signup from '../views/Signup'
-// import Signout from '../views/Signout'
-// import MainLayout from '../views/MainLayout'
-// import Page404 from '../views/Page404'
-// import Page500 from '../views/Page500'
 
 const Signin = React.lazy(() => import('../views/Signin'))
 const Signup = React.lazy(() => import('../views/Signup'))
