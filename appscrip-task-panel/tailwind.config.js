@@ -10,6 +10,9 @@ module.exports = {
         xl: '1280',
         xxl: '1536'
       },
+      fontFamily: {
+        roboto: 'Roboto'
+      }
     },
   },
   plugins: [],

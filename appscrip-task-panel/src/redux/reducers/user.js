@@ -1,14 +1,14 @@
 export const setAuthReducer = (state, action) => {
-    state.isAuth = action.isAuth
-    state.userId = action.userId
+    state.isAuth = action.payload.isAuth
+    state.userId = action.payload.userId
 
     return state
 }
 
 export const setUserReducer = (state, action) => {
-    state.name = action.name
-    state.email = action.email
-    state.lastLogin = action.lastLogin
+    state.name = action.payload.name
+    state.email = action.payload.email
+    state.lastLogin = action.payload.lastLogin
 
     return state
 }
