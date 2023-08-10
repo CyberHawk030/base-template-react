@@ -8,7 +8,7 @@ const Page500 = React.lazy(() => import('../Page500'))
 const routes = [
     {
         name: 'Dashboard',
-        path: '/dashboard',
+        path: '/',
         element: <CustomerDetails />
     }, {
         name: 'Page 404',
