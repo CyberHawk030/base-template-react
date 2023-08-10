@@ -5,7 +5,7 @@ import isAuth from '../../lib/isAuth'
 const RouteCondition = ({ type, children }) => {
 
     if(isAuth() && type === 'auth'){
-        return <Navigate to='/dashboard' />
+        return <Navigate to='/' />
     } else if (!isAuth() && type === 'private'){
         return <Navigate to={'/signin'} />
     }
