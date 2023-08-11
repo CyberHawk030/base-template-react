@@ -46,7 +46,7 @@ const Signin = () => {
           dispatch(setAuth({ isAuth, userId: user._id }))
           setAuthToken(token)
           setAxiosHeaders()
-          navigate('/dashboard')
+          navigate('/')
         }
       } else {
         if(!isEmpty(errors)){
