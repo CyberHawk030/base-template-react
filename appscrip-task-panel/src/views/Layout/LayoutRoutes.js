@@ -12,7 +12,7 @@ const routes = [
         element: <CustomerDetails />
     }, {
         name: 'Page 404',
-        path: '/*',
+        path: '/404',
         element: <Page404 />
     }, {
         name: 'Page 500',
